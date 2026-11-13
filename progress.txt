@@ -1,0 +1,5 @@
+# Ralph Loop Progress Log
+# Ralph Loop records progress here after each iteration.
+# Do not delete past entries — the loop uses this history to determine remaining work.
+
+

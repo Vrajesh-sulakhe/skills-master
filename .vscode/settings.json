@@ -1,0 +1,8 @@
+{
+  "ralphLoop.taskFile": "PRD.md",
+  "ralphLoop.progressFile": "progress.txt",
+  "ralphLoop.promptFile": "prompt.md",
+  "ralphLoop.defaultMode": "Fast",
+  "ralphLoop.maxIterations": 50
+}
+
