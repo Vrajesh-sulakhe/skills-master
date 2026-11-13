@@ -181,3 +181,4 @@ This document contains all the GitHub repositories collected and configured to b
 | **AI Research** | [`karpathy/autoresearch`](https://github.com/karpathy/autoresearch) | Autonomous scientific & code experiments |
 | **Platform SDK** | [`google-antigravity/antigravity-sdk-python`](https://github.com/google-antigravity/antigravity-sdk-python) | Python SDK for Antigravity agents |
 | **Integrations** | [`ComposioHQ/awesome-claude-skills`](https://github.com/ComposioHQ/awesome-claude-skills) | Tooling & action integrations |
+
