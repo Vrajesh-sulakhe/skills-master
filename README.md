@@ -1,20 +1,23 @@
 # Skills Master
 
-A centralized, production-grade repository for managing, scaffolding, and auto-routing AI agent skills, plugins, and master execution protocols in **Google Antigravity IDE** and **Gemini CLI**.
+A centralized, production-grade repository for managing, scaffolding, and auto-routing AI agent skills, plugins, and master execution protocols across **ANY AI coding agent** (Claude Code, Antigravity IDE, Cursor, OpenAI Codex, OpenCode, Windsurf, Aider, Cline, GitHub Copilot Workspace, etc.).
 
 ---
 
 ## 🌟 Overview
 
-`skills-master` provides a unified system architecture for AI coding assistants and autonomous agents:
+`skills-master` provides a universal, agent-agnostic architecture for AI coding assistants and autonomous loops:
 
-1. **Two-Tier Autonomous Routing**:
+1. **Two-Tier Universal Autonomous Routing**:
    - **Tier 1 (Mandatory Meta-Workflow)**: Unconditional auto-triggering protocols (via [Superpowers](https://github.com/obra/superpowers)) enforcing TDD, systematic debugging, bite-sized planning, and verification before completion on **every single user prompt**.
    - **Tier 2 (Universal Domain Skill Auto-Triggering)**: Automatically analyzes prompt intent and activates the corresponding specialized skill from a 3,500+ global library across **all projects (past, current, and upcoming)**.
-2. **Master Routing Catalogs**: Consolidates large skill frameworks into streamlined master entry points:
+2. **Multi-Agent & Multi-Harness Compatibility**:
+   - Built to run on **any agent harness**: Claude Code, Cursor, Codex, Antigravity/Gemini CLI, Windsurf, OpenCode, Aider, and Ralph Loop.
+   - Installs universally with the open Agent Skills standard (`npx skills add <repo>`).
+3. **Master Routing Catalogs**: Consolidates massive skill frameworks into streamlined master entry points:
    - [`get-shit-done`](.agents/skills/get-shit-done/SKILL.md): Master router for all 72 GSD Core spec-driven development skills.
    - [`bootstrap-all-rounder`](.agents/skills/bootstrap-all-rounder/SKILL.md): Master router for all 11 official Bootstrap framework skills.
-3. **Autonomous Execution Loops**: Fully configured integration with [Ralph Loop for Antigravity](https://github.com/abhishekbhakat/ralph-loop-for-antigravity) driven by `PRD.md`, `progress.txt`, and `prompt.md`.
+4. **Autonomous Execution Loops**: Fully configured integration with [Ralph Loop for Antigravity](https://github.com/abhishekbhakat/ralph-loop-for-antigravity) driven by `PRD.md`, `progress.txt`, and `prompt.md`.
 
 ---
 
@@ -37,7 +40,7 @@ skills-master/
 ├── github-links.md              # Curated directory of all source repositories & skills
 ├── PRD.md                       # Task specification file for autonomous Ralph Loop
 ├── progress.txt                 # Iteration log for autonomous Ralph Loop
-├── prompt.md                    # Two-tier global autonomous routing system prompt
+├── prompt.md                    # Universal multi-agent routing system prompt
 └── skills-lock.json             # Skill dependency lockfile
 ```
 
@@ -45,8 +48,8 @@ skills-master/
 
 ## 🚀 Quick Reference
 
-- **[Two-Tier Global Autonomous Prompt](prompt.md)**: The production system prompt mandating `using-superpowers` on every prompt and dynamic global skill resolution across all projects.
-- **[Curated GitHub Repositories](github-links.md)**: Complete list of all 18 source GitHub repositories with descriptions, install commands, and included skills.
+- **[Universal Multi-Agent System Prompt](prompt.md)**: Production system prompt mandating `using-superpowers` on every prompt and dynamic global skill resolution across any agent harness.
+- **[Curated GitHub Repositories](github-links.md)**: Complete directory of all 18 source GitHub repositories with descriptions, install commands, and included skills.
 - **[Skill Authoring Guide](antigravity-skill-creator.md)**: Specifications and instructions for generating standard `.agent/skills/<skill-name>/SKILL.md` packages.
 
 ---
@@ -75,11 +78,17 @@ Incoming Prompt ──> Tier 1: Auto-Trigger `using-superpowers` (Mandatory Proc
 
 ---
 
-## 🛠️ Requirements & Tooling
+## 🌐 Multi-Agent Quick Setup
 
-- [Antigravity IDE](https://antigravity.google) / Gemini CLI (`agy`)
-- [GitHub CLI (`gh`)](https://cli.github.com)
-- [Ralph Loop for Antigravity](https://github.com/abhishekbhakat/ralph-loop-for-antigravity)
+| Agent / Harness | Configuration File | Setup Snippet |
+| :--- | :--- | :--- |
+| **Universal CLI** | Terminal | `npx skills add <repo>` |
+| **Claude Code** | `CLAUDE.md` | Add instructions linking to `skills/using-superpowers/SKILL.md` |
+| **Cursor** | `.cursor/rules/superpowers.mdc` | Configure rule with `alwaysApply: true` |
+| **Codex / OpenCode** | `AGENTS.md` | Add mandatory skill protocol to `AGENTS.md` |
+| **Antigravity / Gemini** | `GEMINI.md` | Add prompt to `~/.gemini/antigravity/rules/` or project `GEMINI.md` |
+| **Windsurf** | `.windsurfrules` | Embed execution rules into `.windsurfrules` |
+| **Ralph Loop** | `.vscode/settings.json` | Set `"ralphLoop.promptFile": "prompt.md"` |
 
 ---
 
